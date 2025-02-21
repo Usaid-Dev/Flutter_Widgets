@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget/widgets/time_picker.dart';
+import 'package:flutter_widget/widgets/progress_indicator.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: TimePickerExample(),
+      home: const ProgressIndicatorExample(),
     );
   }
 }
